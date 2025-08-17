@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -29,26 +33,20 @@ header {
 }
 
 .nav-links {
-    margin: 1rem auto;
+    margin: 1rem 0;
 }
 
 .nav-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-container ul {
     list-style: none;
     display: flex;
     gap: 20px;
-}
-
-.github {
-    margin-left: auto; 
-    background-color: #e00000;
-    border-radius: 8px;
-    padding: 0.5rem 1rem;
 }
 
 .nav-container ul li a {
@@ -84,6 +82,16 @@ header {
     max-width: 100%;
     border-radius: 8px;
     margin-bottom: 1rem;
+}   
+
+.btn{
+    background-color: #2e2e2e; 
+    color: #ffffff;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
 }
 
 .card h3 {
@@ -111,6 +119,90 @@ header {
 .content-main p {
     font-size: 1.2rem;
 }
+
+.container-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.about-flex {
+    display: flex;
+    gap: 2rem;
+    align-items: center; 
+    flex-wrap: wrap;     
+}
+
+.about-img img {
+    max-width: 260px;
+    border-radius: 8px;
+    display: block;
+}
+
+.content-about {
+    flex: 1; 
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+#skills {
+    text-align: center;
+    margin: 4rem auto;
+    color: #fff;
+    padding: 1rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;          
+    justify-content: center;   
+    gap: 3rem;
+    max-width: 1000px;      
+    margin: auto;
+}
+
+.skill-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.skill-wrapper:last-child {
+    justify-content: center;  
+    flex: 0;                 
+}
+
+.skill {
+    background: #1e1e1e;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 120px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    flex-shrink: 0;
+}
+
+.skill img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+
+@media (max-width: 600px) {
+.skills-container {
+    flex-direction: column;
+    align-items: center;
+}
+.skill-wrapper {
+    justify-content: center;
+}
+}
+
+
 
 .typing::after {
     content: "|";
