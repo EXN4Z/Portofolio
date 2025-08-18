@@ -1,3 +1,2 @@
 # Portofolio
-- Masih Proses!!
-- Code nya kurang rapi :D
+- Maaf kalo code nya ga rapi :D
