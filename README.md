@@ -1,5 +1,6 @@
 # Portofolio
 - Maaf kalo code nya ga rapi :D
+- Versi React + Tailwind belom jadi masi proses
 # Image source
 - profile card : https://ik.imagekit.io/uokigjcjp/3969fc7290150f3491e17020339e70f5111.jpg?updatedAt=1755405944639
 - about : https://ik.imagekit.io/uokigjcjp/407d9107a19e32338236fd28a152e344-removebg-preview.png?updatedAt=1755408734612
